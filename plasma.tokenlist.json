@@ -11,7 +11,10 @@
       "decimals": 18,
       "name": "Plasma",
       "symbol": "XPL",
-      "logoURI": "https://raw.githubusercontent.com/PlasmaLaboratories/plasma-tokenlist/main/logos/9745/XPL.svg"
+      "logoURI": "https://raw.githubusercontent.com/PlasmaLaboratories/plasma-tokenlist/main/logos/9745/XPL.svg",
+      "extensions": {
+         "coingeckoId": "plasma"
+      }
     },
     {
       "chainId": 9745,
