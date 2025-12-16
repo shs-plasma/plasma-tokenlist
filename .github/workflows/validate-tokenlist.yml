@@ -21,13 +21,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install validation deps (AJV + formats + web3-utils)
+      - name: Install dependencies
         run: |
+          npm install
           npm i -D ajv-cli ajv-formats web3-utils
-
-      - name: Install Uniswap token-lists package
-        run: |
-          npm i -D @uniswap/token-lists
 
       - name: Write local schema file from package
         run: |
