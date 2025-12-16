@@ -27,7 +27,7 @@ jobs:
 
       - name: Install Uniswap token-lists package
         run: |
-          npm i -D @uniswap/token-lists
+          npm i -D @uniswap/token-lists@1.0.0-beta.33
 
       - name: Write local schema file from package
         run: |
